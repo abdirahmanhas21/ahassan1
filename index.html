@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Practice</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body,
+        html {
+            font-family: poppins, monospace;
+            font-weight: 400;
+            font-style: normal;
+            background-color: white;
+            color: black;
+        }
+        
+        h1,
+        nav,
+        footer,
+        img {
+            text-align: center;
+        }
+        
+        h1 {
+            color: black;
+            font-size: 65px;
+            font-family: fantasy monospace;
+            font-weight: 400;
+            font-style: normal;
+        }
+        
+        nav li {
+            list-style-type: none;
+            display: inline;
+        }
+        
+        nav li a {
+            text-decoration: underline;
+            color: #8B4513;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        a:hover {
+            color: black;
+        }
+        
+        hr {
+            background-color: black;
+            height: 1px;
+            border: groove;
+        }
+        
+        details {
+            border: 1px solid black;
+            border-radius: 4px;
+            padding: .5em .5em 0;
+        }
+        
+        img {
+            display: block;
+            margin: 0px auto;
+            border-radius: 7px;
+            border: 3px solid black;
+        }
+        
+        .email {
+            list-style-type: "📧";
+        }
+        
+        .phone {
+            list-style-type: "📞";
+        }
+    </style>
+</head>
+
+<header>
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="ContactUs.html">Contact Us</a>
+    </div>
+</header>
+
+
+<body>
+    <div>
+        <h1>AH Photography</h1>
+    </div>
+  <link rel="stylesheet" href="background.jpg">
+    <img src="profile.jpg" alt="me" height="400" width="550" /><br /><br />
+    <hr><br />
+    <nav>
+        <li><a href="index.html">Home</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li><a href="Gallery.html">Gallery</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li><a href="aboutus.html">About Us</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li><a href="ContactUs.html">Contact Us</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+    </nav><br /><br />
+    <details style="background: hsl(123, 100%, 50%);">
+        
+        <summary >Me</summary>
+        <p>Here's my personal information:</p>
+        <ol>
+            <li>Name: &nbsp;Amar Hone</li>
+            <li>Birth Date: &nbsp;12/09/00</li>
+        </ol>
+    </details><br />
+    <details style="background: hsl(123, 100%, 50%);">
+        <summary>Contact Information</summary>
+        <ul>
+            <li class="email">&nbsp;ajohn@outlook.com</li>
+        </ul>
+        <ul>
+            <li class="phone">&nbsp;07745765894</li>
+        </ul>
+    </details><br />
+    <details style="background: hsl(123, 100%, 50%);">
+        <summary>School Information</summary>
+        <p>I study at Greenwich University.</p>
+        <img src="banner.png" alt="greenwich" height="300" width="300" /><br />
+    </details><br />
+    <details style="background: hsl(123, 100%, 50%);">
+        <summary>Hobbies</summary>
+        <p>I love playing football and working out. I enjoy socialising and spending time with friends.</p>
+        <img src="friends.jpg" height="300" width="300" /><br />
+    </details><br />
+    <br /><br />
+    <hr>
+    <footer style="background: hsl(123, 100%, 50%);">
+        <h3>Created by Abdirahman Hassan</h3>
+        <h5>Copyright @Capturedby_AH 2021</h5>
+        <h5>Instagram: <a href="https://www.instagram.com/capturedby_ah/"> @Capturedby_AH</a></h5>
+    </footer>
+</body>
+
+</html>
